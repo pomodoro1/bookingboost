@@ -1979,7 +1979,7 @@ a {
 .clearfix {
   clear: both; }
 
-.z-depth-0, #hero nav, #hero nav .cta {
+.z-depth-0, .modal, #hero nav, #hero nav .cta {
   box-shadow: none !important; }
 
 .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-xlarge, #comparison .cta, #hero nav .cta, .btn-floating, .dropdown-content, .collapsible, .side-nav {
@@ -6932,6 +6932,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       height: 90px;
       line-height: 90px;
       font-size: 1.4rem; } }
+
+.modal-overlay {
+  opacity: .95 !important;
+  background: linear-gradient(45deg, #227fbb, #3b8f57); }
 
 #hero {
   background: linear-gradient(45deg, #227fbb, #3b8f57);

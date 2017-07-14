@@ -68,6 +68,14 @@ $large-and-up-padding: 80px;
 }
 
 
+.modal-overlay {
+  opacity: .95 !important;
+  background:  linear-gradient(45deg, darken(#77BAE6,25%), darken(#6DC38A,20%));
+}
+.modal {
+  @extend .z-depth-0;
+}
+
 
 
 
